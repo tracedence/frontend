@@ -5,6 +5,9 @@
 */
 
 function isAnagram(str1, str2) {
+  tmp_str1 = str1.toLowerCase().split("").sort().join("")
+  tmp_str2 = str2.toLowerCase().split("").sort().join("")
+  return tmp_str1 == tmp_str2
 
 }
 
